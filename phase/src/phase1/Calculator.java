@@ -52,11 +52,5 @@ public class Calculator {
 			{
 				System.out.print("Error");
 			}
-			
-			
-			
-		}
-
-	
-
+      }
 }

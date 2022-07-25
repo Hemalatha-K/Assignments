@@ -22,30 +22,35 @@ public class Calculator {
 			Calculator ob = new Calculator();
 			int x,y,result;
 			Scanner sc = new Scanner(System.in);
-			System.out.print("Enter the First Number ");
+			System.out.print("Enter the First Number =");
 		    x=sc.nextInt();
+		    System.out.print("Enter the Second number =");
 		    y=sc.nextInt();
-			System.out.print("Enter the Second number ");
+			
 			//n2=sc.next
-			System.out.print("Enter the Operation to be performed");
+			System.out.print("Enter the Operation to be performed=");
 			char operator=sc.next().charAt(0);
 			if(operator=='+'){
 				result=ob.Add(x,y);
-				System.out.print("Result of Adding two numbers"+ result);
+				System.out.println("Result of Adding two numbers="+ result);
 			}
 			else if(operator=='-'){
 				result = ob.Subract(x,y);
-				System.out.print("Result of subracting two number"+ result);
+				System.out.println("Result of subracting two number="+ result);
 			}
 			else if(operator=='*'){
 				result = ob.Multiply(x,y);
-				System.out.print("Result of multiplying two number "+ result);
+				System.out.print("Result of multiplying two number="+ result);
 				
 			}
-			else{
+			else if(operator=='/')
+			{
 				result=ob.Divide(x,y);
-				System.out.print("Result of dividing two number "+ result);
+				System.out.print("Result of dividing two number= "+ result);
 				
+			}else
+			{
+				System.out.print("Error");
 			}
 			
 			

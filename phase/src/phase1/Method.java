@@ -1,6 +1,6 @@
 package phase1;
 
-public class java {
+public class Method {
 		
 		public int calculate(int a, int b)
 		{	
@@ -25,7 +25,7 @@ public class java {
 		
 
 		public static void main(String[] args) {
-			java C = new java();
+			Method C = new Method();
 			int i=C.calculate(2,6);
 			int j=C.calculate(1);
 			int k=C.calculate(2f,6f);

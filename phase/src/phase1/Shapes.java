@@ -1,39 +1,39 @@
 package phase1;
 
 public class Shapes {
-	int x;
-	float y;
-	double z,t,rh;
+	int A;
+	float B;
+	double O,K,P;
 	Shapes(){
 		
 	}
-	Shapes(int s){
-		x=(s*s);
+	Shapes(int J){
+		A=(J*J);
 	}
-	Shapes(float l, float b){
+	Shapes(float G, float H){
 		
-		y=(l*b);
+		B=(G*H);
 		
 	}
 	Shapes(double r){
-		z=(3.14*r*r);
+		O=(3.14*r*r);
 	}
-	void displaySquare(){
-		System.out.println("area of square is " +x);
+	void Square(){
+		System.out.println("area of square is " +A);
 	}
-	void displayRect(){
-		System.out.println("area of rectangle is " +y);
+	void Rectangle(){
+		System.out.println("area of rectangle is " +B);
 	}
-	void displayCircle(){
-		System.out.println("area of circle is " +z);
+	void Circle(){
+		System.out.println("area of circle is " +O);
 	}
-	void area(float k, float l){
-		t=(0.5*k*l);
-		System.out.println("area of triangle is " +t);
+	void Area(float k, float l){
+		K=(0.5*k*l);
+		System.out.println("area of triangle is " +K);
 	} 
-	void area(double d1, double d2){
-		rh=(0.5*d1*d2);
-		System.out.println("area of rhombus is " +rh);
+	void Area(double d1, double d2){
+		P=(0.5*d1*d2);
+		System.out.println("area of rhombus is " +P);
 	}
 	
 
@@ -44,11 +44,11 @@ public class Shapes {
 		Shapes s3=new Shapes(6.5);
 		Shapes s4=new Shapes();
 		Shapes s5=new Shapes();
-		s1.displaySquare();
-		s2.displayRect();
-		s3.displayCircle();
-		s4.area(21.5,10.2);
-		s5.area(21,10);
+		s1.Square();
+		s2.Rectangle();
+		s3.Circle();
+		s4.Area(21.5,10.2);
+		s5.Area(21,10);
 		
 	}
 

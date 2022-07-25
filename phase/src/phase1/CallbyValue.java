@@ -1,18 +1,18 @@
 package phase1;
 
 public class CallbyValue {
-	int val = 150;
-	int operation(int val)
+	int v= 150;
+	int operation(int v)
 	{
-		val=val*10/100;
-		return val;
+		v=v*10/100;
+		return v;
 	}
 
 public static void main(String[] args) {
 	
 	CallbyValue d = new CallbyValue();
 	
-	System.out.println("before:"+ d.val);
+	System.out.println("before:"+ d.v);
 	int f= d.operation(100);
 	System.out.println("after:"+ f);
 

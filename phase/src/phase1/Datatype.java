@@ -1,6 +1,6 @@
 package phase1;
 
-public class TypeCast {
+public class Datatype {
 	public static void main(String[] Args){
 	int age= 56;
 	float f= 56.36f;

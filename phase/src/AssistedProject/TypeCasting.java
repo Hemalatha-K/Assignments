@@ -4,7 +4,7 @@ public class TypeCasting {
 public static void main(String[] args) {
 		
 		//implicit conversion
-		System.out.println("Implicit Type Casting");
+		System.out.println("Implicit type casting");
 		char V='A';
 		System.out.println("Value of a: "+V);
 		

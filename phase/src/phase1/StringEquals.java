@@ -30,7 +30,7 @@ public static void main(String[] args) {
 	  System.out.println("False");
   }
   if(p==y && p.equals(y)){
-	  System.out.println("true");
+	  System.out.println("true.");
   }else{
 	  System.out.println("False");
   }
